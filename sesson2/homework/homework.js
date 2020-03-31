@@ -47,22 +47,22 @@
 //     case 1:
 //     case 2:
 //     case 3:
-//         console.log(name +" sinh vao mua xuan");
+//         console.log(name +" sinh vào mùa xuân");
 //         break;
 //     case 4:
 //     case 5:
 //     case 6:
-//         console.log(name +" sinh vao mua he");
+//         console.log(name +" sinh vào mùa hè");
 //         break;
 //     case 7:
 //     case 8:
 //     case 9:
-//         console.log(name+" sinh vao mua thu");
+//         console.log(name+" sinh vào mùa thu");
 //         break;
 //     case 10:
 //     case 11:
 //     case 12:
-//         console.log(name+" sinh vao mua dong");
+//         console.log(name+" sinh vào mùa đông");
 //         break;
 //   default:
 //       console.log("khong hop le");   
@@ -72,20 +72,20 @@
 //Bài tập 5
 // let useragain = "yes";
 // while (useragain = "yes"){
-//     let a = prompt ("Nhap vao a");
-//     let b = prompt ("Nhap vao b");
-//     let c = prompt ("Nhap vao c");
+//     let a = prompt ("Nhập a");
+//     let b = prompt ("Nhập b");
+//     let c = prompt ("Nhập c");
 //     let delta = b*b + 4*a*c;
 //     if(delta < 0){
-//         console.log("Phuong trinh vo nghiem");
+//         console.log("Phương trình vô nghiệm");
 //     }else if(delta == 0){
-//         console.log("Phuong trinh co nghiem kep x =" + -b/2*a);
+//         console.log("Phương trình có nghiệm kép x =" + -b/2*a);
 //     }else{
 //         let x1 = (-b+Math.sqrt(delta))/2*a;
 //         let x2 = (-b-Math.sqrt(delta))/2*a;
-//         console.log("Phuong trinh co 2 nghiem x1 = " + x1 + " va x2 = " + x2)
+//         console.log("Phương trình có 2 nghiệm x1 = " + x1 + " va x2 = " + x2)
 //     }
-//     useragain = prompt ("Ban co muon su dung tiep ? (yes/no)")
+//     useragain = prompt ("Bạn có muốn sử dụng tiếp ? (yes/no)")
 //     if(useragain ==="no"){
 //         break;
 //     }
